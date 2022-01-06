@@ -1,0 +1,47 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #111111;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+
+.grid {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__full-width {
+  width: 100%;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.grid__full-column {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+.grid__column-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+}
+.grid__column-3-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+}

@@ -1,0 +1,114 @@
+@media (max-width: 740px) {
+  .main-page__text {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .main-page__heading {
+    font-size: 3.6rem;
+    margin: 0;
+    width: 100%;
+  }
+  .main-page__description {
+    width: 95%;
+    margin: 22px 2.5% 0;
+  }
+
+  /* --------------------------------------------------------- */
+
+  .main-page__category-list {
+    justify-content: space-around;
+  }
+  .main-page__category-item {
+    width: 30%;
+    margin-right: 0;
+    padding: 30px 10px;
+  }
+  .main-page__category-heading {
+    font-size: 1.8rem;
+  }
+
+  /* ------------------------------------------------------------ */
+  .main-page__second-graph {
+    height: 950px;
+    display: block;
+  }
+  .main-page__text-second {
+    margin: 0;
+    width: 100%;
+    padding: 280px 0;
+  }
+  .main-page__heading-second {
+    font-size: 3.6rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  .main-page__description-second {
+    width: 90%;
+    margin: 20px 5% 0;
+  }
+  .main-page__second-left-img {
+    top: -99px;
+  }
+  .main-page__second-right-img {
+    margin-top: 200px;
+  }
+  /* -------------------------------------------------------------------- */
+  .grid__row {
+    display: block;
+  }
+  .grid__column-6 {
+    width: 100%;
+    padding: 0;
+  }
+  .main-page__benefit-list {
+    width: 100%;
+    margin: 0;
+  }
+  .main-page__benefit-item {
+    width: 100%;
+    margin: 0;
+    display: block;
+  }
+  .main-page__benefit-detail {
+    margin: 20px 0 0;
+  }
+
+  .main-page__benefit-info {
+    width: 90%;
+    margin: 20px 5%;
+  }
+
+  .main-page__benefit-title {
+    font-size: 3.6rem;
+    padding: 0;
+    width: 100%;
+  }
+  .main-page__benefit-specific {
+    width: 100%;
+    margin: 30px 0;
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+  /* ------------------------------------------------------------------------------ */
+  .main-page__question-heading {
+    font-size: 3.6rem;
+    width: 100%;
+  }
+  .main-page__question-list {
+    width: 94%;
+    margin: 0 3%;
+  }
+  /* ------------------------------------------------------------------------------- */
+  .main-page__second-left-img-member {
+    top: 0;
+    left: 0;
+  }
+  .main-page__text-second-member {
+    margin: 0;
+    width: 100%;
+    padding-top: 380px;
+  }
+
+  /* ---------------------------------------------------------------------------------- */
+}
